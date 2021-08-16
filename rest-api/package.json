@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "this is my first rest-api project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCS163065/rest-api.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Arslan Akram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BCS163065/rest-api/issues"
+  },
+  "homepage": "https://github.com/BCS163065/rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
