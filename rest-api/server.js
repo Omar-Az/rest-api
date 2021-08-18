@@ -2,7 +2,7 @@ const express = require('express')
 const bodyparser= require("body-parser")
 const cors=require("cors")
 const port=3000
-
+const Functions=require("./controllers/service")
 
 //controller
 const users= require('./controllers/userController')
@@ -18,6 +18,8 @@ app.use(cors())
 app.use(bodyparser.json())
 app.use('/user',users)
 app.listen(port,function(){
+    Functions.Functions1()
+    Functions.Functions2()
     console.log("Server started at port" + port)
 })
     //localhost:3000
